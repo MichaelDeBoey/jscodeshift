@@ -1,5 +1,13 @@
 # Changelog
 
+## 17.4.0
+
+### Minor Changes
+
+- 0ced828: Add iterator implementation to Collections
+
+  ES6 iterators support the new for..of syntax. Since a Collection wraps an Array, we can lean on ECMAScript's new iterator delegation.
+
 ## 17.3.0
 
 ### Minor Changes
